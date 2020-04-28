@@ -152,10 +152,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="GymDeskAdm.cpp" />
+    <ClCompile Include="LoginDialog.cpp" />
     <ClCompile Include="MainFrame.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GymDeskAdm.h" />
+    <ClInclude Include="LoginDialog.h" />
     <ClInclude Include="MainFrame.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>

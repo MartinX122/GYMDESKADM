@@ -8,6 +8,10 @@ END_EVENT_TABLE()
 MainFrame::MainFrame(wxWindow* parent, wxWindowID id, const wxString& title, const wxPoint& pos, const wxSize& size, long style) : wxFrame(parent, id, title, pos, size, style)
 {
 	CreateGUIControls();
+
+	this->DefaultLoginDialog = new LoginDialog(NULL);
+	this->DefaultLoginDialog->ShowModal();
+
 }
 
 MainFrame::~MainFrame()

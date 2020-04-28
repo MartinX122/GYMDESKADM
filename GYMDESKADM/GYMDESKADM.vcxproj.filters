@@ -36,6 +36,9 @@
     <ClInclude Include="MainFrame.h">
       <Filter>Archivos de encabezado\Frames</Filter>
     </ClInclude>
+    <ClInclude Include="LoginDialog.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GymDeskAdm.cpp">
@@ -43,6 +46,9 @@
     </ClCompile>
     <ClCompile Include="MainFrame.cpp">
       <Filter>Archivos de origen\Frames</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginDialog.cpp">
+      <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

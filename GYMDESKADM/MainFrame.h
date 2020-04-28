@@ -12,8 +12,12 @@
 #endif
 
 
+#include "LoginDialog.h"
+
+
 class MainFrame : public wxFrame
 {
+DECLARE_EVENT_TABLE();
 
 public:
 	MainFrame(
@@ -29,9 +33,11 @@ public:
 
 
 private:
-	DECLARE_EVENT_TABLE();
+	
 	void OnClose(wxCloseEvent& event);
 	void CreateGUIControls();
+
+	LoginDialog* DefaultLoginDialog;
 
 };
 
