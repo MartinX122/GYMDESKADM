@@ -10,6 +10,7 @@
 #include "wx/button.h"
 
 
+
 class LoginDialog : public wxDialog
 {
 DECLARE_EVENT_TABLE();

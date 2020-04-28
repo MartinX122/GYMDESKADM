@@ -11,9 +11,9 @@
 	#include "wx/wxprec.h"
 #endif
 
+#include "wx/menu.h"
 
 #include "LoginDialog.h"
-
 
 class MainFrame : public wxFrame
 {
@@ -36,6 +36,8 @@ private:
 	
 	void OnClose(wxCloseEvent& event);
 	void CreateGUIControls();
+
+	wxMenuBar* MenuBar;
 
 	LoginDialog* DefaultLoginDialog;
 

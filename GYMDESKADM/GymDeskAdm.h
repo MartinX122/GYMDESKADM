@@ -14,6 +14,10 @@
 #endif
 
 #include "wx/splash.h"
+#include "wx/intl.h"
+#include "wx/translation.h"
+
+#include "MainFrame.h"
 
 class GymDeskAdmApp : public wxApp
 {

@@ -20,7 +20,9 @@ MainFrame::~MainFrame()
 
 void MainFrame::CreateGUIControls()
 {
-	
+	this->MenuBar = new wxMenuBar();
+
+	this->SetMenuBar(this->MenuBar);
 	this->SetTitle(wxString(""));
 	this->SetIcon(wxNullIcon);
 	this->SetSize(8, 8, 800, 640);
