@@ -12,6 +12,7 @@
 #endif
 
 #include "wx/menu.h"
+#include "wx/translation.h"
 
 #include "LoginDialog.h"
 
@@ -31,13 +32,16 @@ public:
 
 	virtual ~MainFrame();
 
+	void SetLocale(wxLocale* _locale);
 
 private:
 	
 	void OnClose(wxCloseEvent& event);
 	void CreateGUIControls();
+	
 
 	wxMenuBar* MenuBar;
+	wxLocale* locale;
 
 	LoginDialog* DefaultLoginDialog;
 

@@ -25,30 +25,39 @@
     <Filter Include="Archivos de encabezado\Dialogs">
       <UniqueIdentifier>{2786fb80-e4b9-4209-bbcf-9968550c99f2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Archivos de origen\Database">
+      <UniqueIdentifier>{89872a37-8c9a-4818-b2bd-b52a1967b1d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Database">
+      <UniqueIdentifier>{b67e1b6d-3891-41cd-9506-9742d35c41b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Base">
+      <UniqueIdentifier>{9dc740ab-bf9b-4bd3-b1ae-f90e6b776e00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Base">
+      <UniqueIdentifier>{3f757738-0b7f-4cee-890e-ddb235cd338d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="resource.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="GymDeskAdm.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
     <ClInclude Include="MainFrame.h">
       <Filter>Archivos de encabezado\Frames</Filter>
     </ClInclude>
     <ClInclude Include="LoginDialog.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
+    <ClInclude Include="GymDeskAdm.h">
+      <Filter>Archivos de encabezado\Dialogs</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="GymDeskAdm.cpp">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
     <ClCompile Include="MainFrame.cpp">
       <Filter>Archivos de origen\Frames</Filter>
     </ClCompile>
+    <ClCompile Include="GymDeskAdm.cpp">
+      <Filter>Archivos de origen\Base</Filter>
+    </ClCompile>
     <ClCompile Include="LoginDialog.cpp">
-      <Filter>Archivos de origen</Filter>
+      <Filter>Archivos de origen\Dialogs</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

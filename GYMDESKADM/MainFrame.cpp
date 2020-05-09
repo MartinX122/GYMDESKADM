@@ -18,6 +18,11 @@ MainFrame::~MainFrame()
 {
 }
 
+void MainFrame::SetLocale(wxLocale* _locale)
+{
+	this->locale = _locale;
+}
+
 void MainFrame::CreateGUIControls()
 {
 	this->MenuBar = new wxMenuBar();

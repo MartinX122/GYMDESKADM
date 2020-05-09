@@ -16,6 +16,7 @@
 #include "wx/splash.h"
 #include "wx/intl.h"
 #include "wx/translation.h"
+#include "wx/wxsqlite3.h"
 
 #include "MainFrame.h"
 

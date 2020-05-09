@@ -159,7 +159,6 @@
     <ClInclude Include="GymDeskAdm.h" />
     <ClInclude Include="LoginDialog.h" />
     <ClInclude Include="MainFrame.h" />
-    <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="GymDeskAdm.rc" />

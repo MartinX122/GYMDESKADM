@@ -9,13 +9,26 @@ bool GymDeskAdmApp::OnInit()
     long language = wxLANGUAGE_SPANISH_MEXICAN;
     wxLocale* locale = new wxLocale();
 
-    if (locale->Init(language/*, wxLOCALE_CONV_ENCODING*/))
+    /*
+    wxString testDBName = wxGetCwd() + wxS("/test2.db");
+    wxMessageBox(testDBName);
+
+    if (locale->Init(language/*, wxLOCALE_CONV_ENCODING* /))
         wxMessageBox("Language loaded OK\n");
     else
-        wxMessageBox("Language loading failed\n");
+        wxMessageBox("Language loading failed\n");*/
+
+
+    const wxString dbFileTest = wxGetCwd() + wxS("\\test.db");
+
+   // wxMessageBox(dbFileTest);
 
     MainFrame*  frame = new MainFrame(NULL);
-    SetTopWindow(frame);
+
+    this->SetTopWindow(frame);
+
+    frame->SetLocale(locale);
+
     frame->Show();
 
     return true;
